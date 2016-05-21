@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="project-euler-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Keys._, dsl._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin" sbt.resolvers="https://jcenter.bintray.com/|maven|jcenter, https://repo1.maven.org/maven2/|maven|public, C:\Users\Daniel\.ivy2\cache|ivy|Local cache" type="SBT_MODULE" version="4">
+<module external.linked.project.id="project-euler-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Keys._, dsl._, _root_.pl.project13.scala.sbt.JmhPlugin.autoImport._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.pl.project13.scala.sbt.JmhPlugin" sbt.resolvers="https://jcenter.bintray.com/|maven|jcenter, https://repo1.maven.org/maven2/|maven|public, C:\Users\Daniel\.ivy2\cache|ivy|Local cache" type="SBT_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../project/target/idea-classes" />
     <output-test url="file://$MODULE_DIR$/../../project/target/idea-test-classes" />
@@ -14,6 +14,14 @@
     <orderEntry type="module-library">
       <library name="SBT: sbt-and-plugins">
         <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-4.6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-core/jars/jmh-core-1.11.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/jars/jmh-generator-asm-1.11.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/jars/jmh-generator-bytecode-1.11.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/jars/jmh-generator-reflection-1.11.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/pl.project13.scala/sbt-jmh/jars/sbt-jmh-0.2.6.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/jansi.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/jline.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar!/" />
@@ -121,6 +129,14 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/srcs/precompiled-2_9_2-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/srcs/precompiled-2_9_3-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/pl.project13.scala/sbt-jmh/srcs/sbt-jmh-0.2.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-core/srcs/jmh-core-1.11.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.jopt-simple/jopt-simple/srcs/jopt-simple-4.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/srcs/jmh-generator-bytecode-1.11.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/srcs/jmh-generator-reflection-1.11.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/srcs/jmh-generator-asm-1.11.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.3-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

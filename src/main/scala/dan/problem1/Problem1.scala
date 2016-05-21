@@ -16,6 +16,7 @@ object Problem1 {
   def sumFromOneToN(n:Int):Long = {
     // Note to self: investigate performance ramifications of assert/assume/require
     assert(n >= 0)
+    // TODO: learn Scala's rules for when int gets promoted to long
     val sum:Long = n.toLong * (n+1) /2
     sum
   }

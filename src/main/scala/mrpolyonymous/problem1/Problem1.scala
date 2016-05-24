@@ -1,4 +1,4 @@
-package dan.problem1
+package mrpolyonymous.problem1
 
 /**
 

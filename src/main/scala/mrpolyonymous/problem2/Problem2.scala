@@ -1,4 +1,4 @@
-package dan.problem2
+package mrpolyonymous.problem2
 
 import org.openjdk.jmh.annotations._
 
